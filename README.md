@@ -29,3 +29,7 @@ Om alles bij te houden gebruiken wij een [Trelloboard](https://trello.com/b/Mdpx
 # Waar bestaat mijn team uit?
 
 Mijn team bestaat uit 2 MV4 (Media Vormgeving leerjaar 4), 3 RV2 (Ruimtelijk Vormgeving leerjaar 2) en 1 SD2 (Software Developer leerjaar 2).
+
+# Wat is onze concept?
+
+Ons consept is een gouden ei dat in een nest zit, waar kijkgaten en een scheur in zit. Een grind pad leid je daar naartoe en een bewegings sensor laten 3 wolken boven het ei schijnen.
