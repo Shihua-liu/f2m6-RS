@@ -21,6 +21,8 @@ Onze opdrachtgever is een museum dat een gratis kunst expositie opent voor stude
 
 Wij maken gebruiken van de Scrum methode. Bij de Scrum methode maak je gebruik sprints. Er zijn totaal 4 sprint en elke sprint hebben we een sprint backlog. Voor elke backlog staan taken die af moeten zijn of je kan ze verplaatsen naar een andere sprint. De Product backlog zijn de taken voor het hele product. Op de begin van de begin van de dag doen we een daily standup. Wat dat inhoud is dat we elke keer voor dat we beginnen terug kijken wat we de vorige dag hadden gedaan en gaan we kijken wat je vandaag doet. Ook doen we op het einde van elke sprint een Sprint Review voor een potentiële (deel)product en doen we een Sprint Retrospective. Een sprint retrospective doe we om terug te kijken wat goed ging en wat niet goed ging in de periode, zodat we kunnen kijken wat we kunnen verbeteren en wat we kunnen houden.
 
+Om alles bij te houden gebruiken wij een [Trelloboard](https://trello.com/b/MdpxDHgO/radicale-speeltuin) .
+
 # Waar bestaat mijn team uit?
 
 Mijn team bestaat uit 2 MV4 (Media Vormgeving leerjaar 4), 3 RV2 (Ruimtelijk Vormgeving leerjaar 2) en 1 SD2 (Software Developer leerjaar 2).
