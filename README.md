@@ -1,5 +1,10 @@
 ### Welkom bij de github repository van Shi Hua Liu
 
+## Contact gegevens:
+# Telefoon: 06 84333502 
+# Email: Liushihuahl@hotmail.com
+# School-Email: 31684@ma-web.nl
+
 ## Periode: F2M6 - Radicale Speeltuin
 
 # Wat komt hier in te staan?
