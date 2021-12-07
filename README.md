@@ -1,4 +1,4 @@
-### Welkom bij de github repository van Shi Hua Liu
+# Welkom bij de github repository van Shi Hua Liu
 
 ## Contact gegevens:
 
