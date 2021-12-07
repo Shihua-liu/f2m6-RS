@@ -2,7 +2,7 @@
 
 ## Contact gegevens:
 # Telefoon: 06 84333502 
-# Email: Liushihuahl@hotmail.com
+# Email: liushihuahl@hotmail.com en liushihua2004@gmail.com
 # School-Email: 31684@ma-web.nl
 
 ## Periode: F2M6 - Radicale Speeltuin
