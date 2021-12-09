@@ -33,3 +33,11 @@ Mijn team bestaat uit 2 MV4 (Media Vormgeving leerjaar 4), 3 RV2 (Ruimtelijk Vor
 # Wat is onze concept?
 
 Ons consept is een gouden ei dat in een nest zit, waar kijkgaten en een scheur in zit. Een grind pad leid je daar naartoe en een bewegings sensor laten 3 wolken boven het ei schijnen.
+
+# portfolio
+
+Dit zijn links naar onze documentatie:
+
+[logboek] (https://docs.google.com/document/d/1InY-Az6w4eEIcxu_jN3qKdkGnfcNWLbTPF8sPrZ9gZY/edit?usp=sharing)
+[Trelloboard](https://trello.com/b/MdpxDHgO/radicale-speeltuin)
+
