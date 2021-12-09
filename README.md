@@ -38,6 +38,6 @@ Ons consept is een gouden ei dat in een nest zit, waar kijkgaten en een scheur i
 
 Dit zijn links naar onze documentatie:
 
-[logboek] (https://docs.google.com/document/d/1InY-Az6w4eEIcxu_jN3qKdkGnfcNWLbTPF8sPrZ9gZY/edit?usp=sharing)
-[Trelloboard](https://trello.com/b/MdpxDHgO/radicale-speeltuin)
+*[Logboek](https://docs.google.com/document/d/1InY-Az6w4eEIcxu_jN3qKdkGnfcNWLbTPF8sPrZ9gZY/edit?usp=sharing)
+*[Trelloboard](https://trello.com/b/MdpxDHgO/radicale-speeltuin)
 
