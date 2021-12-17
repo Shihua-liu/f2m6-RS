@@ -2,7 +2,7 @@
 
 // Define connection pins:
 #define pirPin 2
-#define ledPin 13
+#define ledPin 6
 
 // Create variables:
 int val = 0;
