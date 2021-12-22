@@ -4,6 +4,7 @@ html{
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -11,12 +12,13 @@ body{
     flex-direction: column;
 }
 
-nav{
-    background-color: blue;
-    color: white;
+/* navbar styling and positioning */
+.navbar{
+    background: #DAEAF6;
+    color: black;
 }
 
-li{
+.navbar > li{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -24,13 +26,136 @@ li{
     padding: 5px 40px;
 }
 
-footer{
-    background: #2D0AF4;
-    color: white;
+.navbar > li> ul > a > h3{
+    text-decoration: none;
+    color:black;
+}
+
+.navbar > li> ul > a:link {
+    text-decoration: none;
+}
+
+.navbar > li> ul > a > h3:hover{ 
+    color:gray;
+}
+
+/* section1 */
+.section1{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-press {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-right: auto;
+    margin-left: 40px;
+
+    color: black;
+    background-color: rgb(247, 178, 75);
+    border: 3px black solid;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+/* vertical line */
+.vl {
+    border-left: 2px solid black;
+    height: 20px;
+}
+
+.vl-f {
+    border-left: 2px solid black;
+    height: 40px;
+    margin: 30px;
+}
+
+/* footer styling and positioning */
+footer{
+    background: #DAEAF6;
+    color: black;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: auto;
     padding: 50px 20px;
+}
+.parts-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer navbar */
+.footer-navbar{
+    background: #DAEAF6;
+    color: black;
+    float: left;
+}
+
+.footer-navbar > li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.footer-navbar > li > ul{
+    padding: 40px;
+}
+
+.footer-navbar > li > ul > a > h2{
+    text-decoration: none;
+    color:black;
+}
+
+.footer-navbar > li > ul > a:link {
+    text-decoration: none;
+}
+
+.footer-navbar > li > ul > a > h2:hover{ 
+    color:gray;
+}
+
+.footer-adress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer-adress > p{
+    margin: 2px;
+    color: black;
+}
+
+/* back to top btn */
+#scrollToTopBtn {
+    background: #DAEAF6;
+    border: none;
+    color: black;
+    cursor: pointer;
+    
+    padding: 25px;
+}
+
+/* to get the arrow */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 4px;
+}
+
+.up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+#scrollToTopBtn:hover{
+    background: rgba(255, 255, 255, 0);
 }

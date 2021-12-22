@@ -1,3 +1,6 @@
+#include <Adafruit_NeoPixel.h>
+#include <rp2040_pio.h>
+
 /* Example code for HC-SR501 PIR motion sensor with Arduino. More info: www.www.makerguides.com */
 
 // Define connection pins:

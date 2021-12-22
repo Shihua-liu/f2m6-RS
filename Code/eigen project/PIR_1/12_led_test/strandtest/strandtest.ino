@@ -159,8 +159,10 @@ void theaterChaseRainbow(int wait) {
         uint32_t color = strip.gamma32(strip.ColorHSV(hue)); // hue -> RGB
         strip.setPixelColor(c, color); // Set pixel 'c' to value 'color'
       }
+      int wait2 = wait * 100000;
+      
       strip.show();                // Update strip with new contents
-      delay(wait);                 // Pause for a moment
+      delay(wait2);                 // Pause for a moment
       firstPixelHue += 65536 / 90; // One cycle of color wheel over 90 frames
     }
   }
