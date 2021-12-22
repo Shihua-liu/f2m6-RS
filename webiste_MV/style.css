@@ -14,7 +14,7 @@ body{
 
 /* navbar styling and positioning */
 .navbar{
-    background: #DAEAF6;
+    background: #B6B4C2;
     color: black;
 }
 
@@ -76,7 +76,7 @@ body{
 
 /* footer styling and positioning */
 footer{
-    background: #DAEAF6;
+    background: #AAC9CE;
     color: black;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ footer{
 
 /* footer navbar */
 .footer-navbar{
-    background: #DAEAF6;
+    background: #AAC9CE;
     color: black;
     float: left;
 }
@@ -134,7 +134,7 @@ footer{
 
 /* back to top btn */
 #scrollToTopBtn {
-    background: #DAEAF6;
+    background: #AAC9CE;
     border: none;
     color: black;
     cursor: pointer;
