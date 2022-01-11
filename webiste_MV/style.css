@@ -123,7 +123,7 @@ footer{
 .footer-navbar > li > ul > a > h2:hover{ 
     color:gray;
 }
-
+/* adress footer */
 .footer-adress{
     display: flex;
     flex-direction: column;
@@ -136,6 +136,7 @@ footer{
     color: black;
 }
 
+
 /* back to top btn */
 #scrollToTopBtn {
     background: #AAC9CE;
@@ -145,6 +146,10 @@ footer{
     
     padding: 25px;
 }
+#scrollToTopBtn:hover{
+    background: rgba(255, 255, 255, 0);
+}
+
 
 /* to get the arrow */
 .arrow {
@@ -160,6 +165,3 @@ footer{
     -webkit-transform: rotate(-135deg);
 }
 
-#scrollToTopBtn:hover{
-    background: rgba(255, 255, 255, 0);
-}

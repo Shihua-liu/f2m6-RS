@@ -1,0 +1,59 @@
+.naam-tim{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#tim-award{
+    grid-area: img;
+    width: 400px;
+    height: auto;
+    margin: 60px 40px;
+}
+
+#tussen-kopje{
+    grid-area: tussen;
+}
+
+#quote{
+    grid-area: quote;
+    margin: 60px 40px;
+}
+
+#tekstdeel-1{
+    grid-area: deel1;
+}
+
+#tim-foto{
+    grid-area: foto;
+}
+
+#tekstdeel-2{
+    grid-area: deel2;
+}
+
+#tim-foto{
+    grid-area: img2;
+    width: 450px;
+    height: auto;
+    margin: 40px;
+}
+
+.tekst-tim{
+    margin: 150px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img img tussen tussen tussen tussen"
+    "img img deel1 deel1 deel1 deel1"
+    "img img deel1 deel1 deel1 deel1"
+    "img img deel2 deel2 img2 img2"
+    "quote quote deel2 deel2 img2 img2"
+    "quote quote deel2 deel2 img2 img2";
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
