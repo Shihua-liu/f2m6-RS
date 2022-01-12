@@ -33,7 +33,7 @@
 
 #tim-foto{
     grid-area: img2;
-    width: 450px;
+    width: 350px;
     height: auto;
     margin: 40px;
 }
@@ -44,12 +44,12 @@
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: 
-    "img img tussen tussen tussen tussen"
-    "img img deel1 deel1 deel1 deel1"
-    "img img deel1 deel1 deel1 deel1"
-    "img img deel2 deel2 img2 img2"
-    "quote quote deel2 deel2 img2 img2"
-    "quote quote deel2 deel2 img2 img2";
+    "img img tussen tussen tussen tussen tussen"
+    "img img deel1 deel1 deel1 deel1 deel1"
+    "img img deel1 deel1 deel1 deel1 deel1"
+    "img img deel2 deel2 deel2 img2 img2"
+    "quote quote deel2 deel2 deel2 img2 img2"
+    "quote quote deel2 deel2 deel2 img2 img2";
 }
 
 .line{
