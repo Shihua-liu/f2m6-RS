@@ -1,0 +1,29 @@
+
+
+.forms{
+    display: flex;
+    flex-direction: row;
+}
+.forms > img{
+    width: 50%;
+    height: auto;
+}
+
+.tijd-from{
+    text-align: left;
+    margin: 40px;
+}
+
+.tijd-from > li > ul > p{
+    text-decoration: none;
+    color:black;
+}
+
+.tijd-from > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tijd-from > form > label{
+    margin-top: 20px ;    
+}
