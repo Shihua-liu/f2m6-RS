@@ -21,7 +21,7 @@
 #define pirPin 2
 
 // How many NeoPixels are attached to the Arduino?
-#define LED_COUNT 24
+#define LED_COUNT 36
 
 int val = 0; // data from PIR sensor
 bool motionState = false; // We start with no motion detected.
