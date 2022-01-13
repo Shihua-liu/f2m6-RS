@@ -11,6 +11,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+  
+body.dark-theme {
+    color: #eee;
+    background: #4C5265;
+  }
 
 /* navbar styling and positioning */
 .navbar{
@@ -53,7 +58,7 @@ body{
     height: auto;
 }
 
-.btn-press {
+.btn-toggle {
     display: flex;
     justify-content: left;
     align-items: flex-start;

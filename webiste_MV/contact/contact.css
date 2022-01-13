@@ -27,3 +27,19 @@
 .tijd-from > form > label{
     margin-top: 20px ;    
 }
+
+#send{
+    background-color: white;
+    border: 2px solid gray;
+    color: gray;
+    margin: 20px 0px;
+    padding: 10px 15px;
+}
+
+#route{
+    text-align: center;
+}
+
+.map{
+    margin: 60px;
+}
