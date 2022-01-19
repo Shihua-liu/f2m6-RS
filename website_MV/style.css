@@ -185,7 +185,7 @@ footer{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     nav{
         background: var(--nav-color);
         color: var(--color);
