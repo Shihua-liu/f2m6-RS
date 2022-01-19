@@ -1,14 +1,16 @@
 /* dark en light mode */
 .lightmode{
-    --nav-color:#B6B4C2;    
+    --nav-color:#E8CEE5;    
     --color: black;
-    --body-color: #3153725d;
+    --body-color: #FFFFFF;
+    --footer-color: #AAC9CE;
 }
 
 .darkmode{
-    --nav-color: #212129;
+    --nav-color: #315372;
     --color: white;
-    --body-color: #4C5265;
+    --body-color: #3153728c;
+    --footer-color: #315372;;
 }
 
 
@@ -99,7 +101,7 @@ nav{
 
 /* footer styling and positioning */
 footer{
-    background: var(--nav-color);
+    background: var(--footer-color);
     color: var(--color);
     display: flex;
     flex-direction: column;
@@ -114,7 +116,7 @@ footer{
 
 /* footer navbar */
 .footer-navbar{
-    background: var(--nav-color);
+    background: var(--footer-color);
     color: var(--color);
     float: left;
 }
@@ -158,7 +160,7 @@ footer{
 
 /* back to top btn */
 #scrollToTopBtn {
-    background: var(--nav-color);
+    background: var(--footer-color);
     border: none;
     color: var(--color);
     cursor: pointer;
