@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="lightmode">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="../Kunstenaar/info.css">
+    <link rel="stylesheet" href="ticket.css">
+    <script src="../themeloader.js"></script>
+    <title>Golden Egg</title>
+</head>
+<body>
+    <nav class="navbar">
+        <li>
+            <ul><a href="../index.html"><h3>Home</h3></a></ul>
+            <ul><a href="ticket.html"><h3>Tickets</h3></a></ul>
+            <ul><a href="../Kunstenaar/info.html"><h3>Tim Walker</h3></a></ul>
+            <ul><a href="../Foto/foto.html"><h3>Foto's</h3></a></ul>
+            <ul><a href="../contact/contact.html"><h3>Contact</h3></a></ul>
+        </li>
+    </nav>
+
+    <div class="contact">
+        <div class="naam-tim">
+            <h1>Tickets</h1>
+        </div>
+        <div class="line">
+           <div class="vl-f"></div>
+        </div>
+       
+        <div class="forms">
+            <div class="ticket-from">
+                <div id="wat-wat">
+                    <span><strong>kies je ticket</strong></span> <span><strong>prijs</strong></span> <span><strong>aantal</strong></span>
+                </div>
+                
+                <div class="ticket-aantal">
+                    <label for="aantal" id="aantal"><span>0-12 jaar:</span><span>€0,00</span>
+                        <select name="kind" id="kind">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select> 
+                    </label>
+                </div>
+                <div class="tickets-aantal">
+                    <label for="aantal" id="aantal"><span>13-17 jaar:</span><span>€12,50</span>
+                        <select name="kind" id="kind">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select> 
+                    </label>
+                </div>
+                <div class="tickets-aantal">
+                    <label for="aantal" id="aantal"><span>volwassen</span><span>€15,50</span>
+                        <select name="kind" id="kind">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select> 
+                    </label>
+                </div>                    
+                <div class="tickets-aantal">
+                    <label for="aantal" id="aantal"><span>student</span><span>€12,50</span>
+                        <select name="kind" id="kind">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select> 
+                    </label>
+                </div>
+                <button id="next">Next</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h1>Golden Egg and the Fox Guard</h1>
+        <div class="vl-f"></div>
+        <div class="parts-footer">
+
+            <div class="footer-navbar">
+                <li>
+                    <ul><a href="../index.html"><h3>Home</h3></a></ul>
+                    <ul><a href="ticket.html"><h3>Tickets</h3></a></ul>
+                    <ul><a href="../Kunstenaar/info.html"><h3>Tim Walker</h3></a></ul>
+                    <ul><a href="../Foto/foto.html"><h3>Foto's</h3></a></ul>
+                    <ul><a href="../contact/contact.html"><h3>Contact</h3></a></ul>
+                </li>
+                
+            </div>
+
+
+            <div class="footer-adress">
+                <div class="vl-f"></div>
+                <p><strong>Moco Museum Amsterdam</strong></p>
+                <p>Honthorststraat 20</p>
+                <p>1071 DE Amsterdam</p>
+                <div class="vl-f"></div>
+            </div>
+            
+            <button id="scrollToTopBtn"><h3><i class="arrow up"></i> Back To Top</h3></button>
+
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn")
+    var rootElement = document.documentElement
+    function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+
+scrollToTopBtn.addEventListener("click", scrollToTop)
+</script>

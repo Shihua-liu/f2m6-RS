@@ -1,0 +1,37 @@
+label{
+    border: 3px solid black;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: var(--body-color);
+}
+
+#aantal{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+
+#wat-wat{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: 100%;
+}
+
+label > select{
+    padding: 10px;
+    background:var(--body-color);
+}
+
+#next{
+    background: var(--body-color);
+    border: 3px solid black;
+    padding: 10px;
+    float: right;
+    margin: 40px;
+}
