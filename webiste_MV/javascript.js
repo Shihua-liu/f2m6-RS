@@ -1,8 +1,8 @@
+function toggle_darkmode() {
+ var element = document.getElementsByTagName("HTML")[0];
+ element.classList.toggle("darkmode");
+ element.classList.toggle("lightmode");
+ var isDarkmode = element.classList.contains("darkmode");
+ window.localStorage.setItem("dark", isDarkmode);
+}
 
-const btn = document.querySelector('.btn-toggle');
-
-// Listen for a click on the button
-btn.addEventListener('click', function() {
-  // Then toggle (add/remove) the .dark-theme class to the body
-  document.body.classList.toggle('dark-theme');  
-})
