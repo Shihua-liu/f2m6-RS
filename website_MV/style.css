@@ -4,17 +4,21 @@
     --color: black;
     --body-color: #FFFFFF;
     --footer-color: #AAC9CE;
+    --btn-color: #737291;
+    --btn-color2: #8180A4 ;
 }
 
 .darkmode{
     --nav-color: #315372;
     --color: white;
     --body-color: #3153728c;
-    --footer-color: #315372;;
+    --footer-color: #315372;
+    --btn-color: #50718E;
+    --btn-color2: #315372 ;
 }
 
 
-
+ 
 html{
     margin: 0;
     padding: 0;
@@ -69,23 +73,65 @@ nav{
     
 }
 
-.section1 > img{
+.img-etc{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-etc > img{
     width: 1000px;
     height: auto;
 }
 
-.btn-toggle {
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    margin-right: 900px;
-    margin-top: -150px;
-    color: black;
-    background-color: rgb(247, 178, 75);
-    border: 3px black solid;
+.btn{
+    border-radius: 50%;    
     padding: 30px;
-    border-radius: 50%;
+    float: right;
 }
+
+.btn > h3{
+ margin: 0;
+ padding: 0;
+}
+
+.btn-group{
+    display: flex;
+    align-items: flex-end;
+    color: black;
+}
+
+.btn-group button{
+    position: absolute;
+}
+
+.btn-toggle1{
+    left: 19%;
+    z-index: 4;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    background: white;
+    border: none;
+}
+
+.btn-toggle2{
+    left: 18.7%;
+    z-index: 1;
+    width: 95px;
+    height: 95px;
+    background: var(--btn-color);
+    border: none;
+}
+
+.btn-toggle4{
+    left: 19%;
+    z-index: 3;    
+    width: 85px;
+    height: 85px;
+    background: var(--btn-color2);
+    border: none;
+}
+
 
 /* vertical line */
 .vl {
