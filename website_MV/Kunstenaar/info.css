@@ -12,6 +12,7 @@
 
 #tussen-kopje{
     grid-area: tussen;
+    margin: 60px 40px;
 }
 
 #quote{
@@ -21,14 +22,17 @@
 
 #tekstdeel-1{
     grid-area: deel1;
+    margin: 60px 40px;
 }
 
 #tim-foto{
     grid-area: foto;
+    margin: 60px 40px;
 }
 
 #tekstdeel-2{
     grid-area: deel2;
+    margin: 60px 40px;
 }
 
 #tim-foto{
@@ -44,24 +48,42 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "img img tussen tussen tussen tussen"
+    grid-template-areas: "img img tussen tussen tussen tussen"
     "img img deel1 deel1 deel1 deel1"
     "img img deel1 deel1 deel1 deel1"
-    "quote quote deel2 deel2 img2 img2"
-    "quote quote deel2 deel2 img2 img2"
-    "quote quote deel2 deel2 img2 img2";
+    "quote quote deel2 deel2 deel2 img2"
+    "quote quote deel2 deel2 deel2 img2"
+    "quote quote deel2 deel2 deel2 img2";;
 }
-.info-tim{
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
-}
-
+.tekst-tim { 
+        
+    }
 .line{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@media (min-width: 900px) {
-    .info-tim { grid-template-columns: repeat(2, minmax(auto, 1fr));}
-  }
+@media all  and (max-width: 800px) {
+.tekst-tim{
+
+    grid-template-areas: 
+    "tussen tussen"
+    "img img"
+    "img img"
+    "img img"
+    "quote quote"
+    "quote quote"
+    "quote quote"
+    
+    "deel1 deel1"
+    "deel1 deel1"
+    "deel2 deel2"
+    "deel2 deel2"
+    "deel2 deel2"
+    "img2 img2"
+    "img2 img2"
+    "img2 img2"; 
+    }
+    
+}

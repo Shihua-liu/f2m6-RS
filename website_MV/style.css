@@ -92,6 +92,7 @@ nav{
 .btn > h3{
  margin: 0;
  padding: 0;
+ color: var(--btn-color2);
 }
 
 .btn-group{
@@ -120,7 +121,7 @@ nav{
     width: 95px;
     height: 95px;
     background: var(--btn-color);
-    border: none;
+    border: none; 
 }
 
 .btn-toggle4{
