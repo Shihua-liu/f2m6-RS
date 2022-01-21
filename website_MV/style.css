@@ -93,6 +93,8 @@ nav{
  margin: 0;
  padding: 0;
  color: var(--btn-color2);
+ transform: rotate(-30deg);
+ margin: -9px;
 }
 
 .btn-group{
