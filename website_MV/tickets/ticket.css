@@ -1,5 +1,5 @@
 label{
-    border: 3px solid black;
+    border: 1px solid black;
     padding: 20px;
     width: 80%;
     margin: auto;
@@ -34,7 +34,7 @@ label > select{
 #next{
     background: var(--body-color);
     color: var(--color);
-    border: 3px solid black;
+    border: 1px solid black;
     padding: 10px;
     float: right;
     margin: 40px;

@@ -6,3 +6,21 @@ function toggle_darkmode() {
  window.localStorage.setItem("dark", isDarkmode);
 }
 
+var sound = document.getElementById("audio")
+sound.volume = 0.15;
+var x = document.getElementById("audio"); 
+x.play(); 
+
+
+
+const box = document.querySelector('.box');
+box.addEventListener('click', (e)=>{;
+  e.target.classList.toggle('pause');
+  if (x.paused){
+    x.play();
+  }
+  else{
+    x.pause();
+  }
+})
+
