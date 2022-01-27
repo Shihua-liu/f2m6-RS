@@ -83,7 +83,7 @@ nav{
     height: auto;
 }
 
-.btn{
+/* .btn{
     border-radius: 50%;    
     padding: 30px;
     float: right;
@@ -133,6 +133,22 @@ nav{
     height: 85px;
     background: var(--btn-color2);
     border: none;
+} */
+
+.vos-licht{
+    width: 100px;
+    height: 126px;
+    background: url('images/vos1.png') no-repeat;
+}
+
+.vos-donker{
+    width: 100px;
+    height: 126px;
+    background: url('images/vos2.png') no-repeat;
+}
+
+#vos{
+    margin-right: 50%;
 }
 
 

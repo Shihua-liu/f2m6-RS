@@ -24,3 +24,9 @@ box.addEventListener('click', (e)=>{;
   }
 })
 
+
+var licht = document.getElementById("vos");
+
+licht.addEventListener('click', function(licht){
+  licht.target.classList.toggle("vos-donker")
+})

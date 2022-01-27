@@ -40,4 +40,6 @@ Dit zijn links naar onze documentatie:
 
 * [Logboek](https://docs.google.com/document/d/1InY-Az6w4eEIcxu_jN3qKdkGnfcNWLbTPF8sPrZ9gZY/edit?usp=sharing)
 * [Trelloboard](https://trello.com/b/MdpxDHgO/radicale-speeltuin)
-
+* [projectplan](https://docs.google.com/document/d/1KeO8jzoYE0i2tndRvRXfpEJLksDOgP0NX-xQMXqpHGo/edit?usp=sharing)
+* [bronnenlijst](https://docs.google.com/document/d/1GPBN90JocfpvUVk5bXAB8-OrtEfkGVtUVqsfVUdguBU/edit?usp=sharing)
+* [testplan](https://docs.google.com/document/d/1BpUPM1zoh6C_H1wze473IIo6hwMY9am1ZFIOg8rzPiU/edit?usp=sharing)
