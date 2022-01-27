@@ -34,7 +34,7 @@ Mijn team bestaat uit 2 MV4 (Media Vormgeving leerjaar 4), 3 RV2 (Ruimtelijk Vor
 
 Ons consept is een gouden ei dat in een nest zit, waar een scheur in zit. Een  pad leid je daar naartoe en een bewegings sensor laten 3 wolken boven het ei schijnen en als je het ei aan raakt, dat gaat het geluid veranderen van een slapen de vos naar een boze vos.
 
-# portfolio
+# documentatie
 
 Dit zijn links naar onze documentatie:
 
